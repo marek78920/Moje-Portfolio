@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+	<link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje Portfolio</title>
+	<style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+
+    .photo {
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s;
+    }
+
+    .photo:hover img {
+      transform: scale(1.05);
+    }
+
+    .photo:hover {
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    }
+	.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* min 300px, max 1fr */
+    gap: 30px; /* väčšie medzery medzi fotkami */
+}
+
+.photo {
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 350px; /* väčšie boxy */
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s;
+}
+
+.photo:hover img {
+    transform: scale(1.05);
+}
+
+.photo:hover {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+  </style>
+  <style> 
+footer {
+  background-color: #1e1e1e; /* tmavé pozadie */
+  color: #f0f0f0;           /* svetlý text */
+  text-align: center;        /* centrovanie textu */
+  padding: 20px 0;           /* vertikálny padding */
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  box-shadow: 0 -3px 5px rgba(0,0,0,0.2); /* jemný tieň */
+}
+
+footer p {
+  margin: 0; /* odstráni predvolené odsadenie od p */
+}
+</style>
+  
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo"> <img src="logo.png" width="100" height="95"> Marek Hanic Portfolio </div>
+        <ul class="nav-links">
+            <li><a href="#">Domov</a></li>
+            <li><a href="#">O mne</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hlavný obsah -->
+    <div class="hero">
+        <h1>Vitajte v mojom portfoliu</h1>
+		<p align="center"> <img src="logo.png" width="350" height="320"> </p> 
+        <p align="center"> Dovoľte aby som sa Vám predstavil som Marek Hanic som absolventom strednej školy v oblasti informatiky presnejšie odboru informačné systémy a služby.</p>
+		<p align="center">  Som flexibilný a adaptabilný človek, ktorý sa rýchlo prispôsobí novým situáciám a dokáže efektívne pracovať aj pod tlakom. Rád spolupracujem s ľuďmi, komunikujem otvorene a profesionálne, a nebránim sa novým výzvam. Som spoľahlivý a motivovaný neustále rozvíjať svoje zručnosti a prispievať k úspechu tímu. Rád komunikujem a spolupracujem s ľuďmi, učím sa nové zručnosti a hľadám príležitosti, kde môžem prispieť svojou kreativitou a technickými schopnosťami. Moje skúsenosti zahŕňajú prácu s programovaním, grafikou, tvorbou webových stránok aj digitálnym dizajnom.</p> 
+    <p align="enter"> V portfóliu prezentujem svoje školské aj osobné projekty. </p> 
+	</div>
+
+
+
+  <h1>Počítačová grafika : </h1>
+   <h1> Tu vidíte nejaké moje školské ale aj súkromne práce vytvárané boli v programoch Adobe photoshop, Inkscape, Blender a v editore pixl.  </h1> 
+   <h1> Projekty zahŕňajú úpravu fotografií, tvorbu vektorovej grafiky a základné 3D modelovanie. </h1>
+<h1> Na týchto prácach som si osvojil prácu s vrstvami, kompozíciu, farby a export grafiky pre rôzne použitia.</h1>
+
+  <section class="gallery">
+    <div class="photo"><img src="fotka.png" alt="F 1"></div>
+    <div class="photo"><img src="fotka2.png" alt="Foto 2"></div>
+    <div class="photo"><img src="fotka3.png" alt="Foto 3"></div>
+    <div class="photo"><img src="fotka4.png" alt="Foto 4"></div>
+    <div class="photo"><img src="fotka5.png" alt="Foto 5"></div>
+    <div class="photo"><img src="fotka6.png" alt="Foto 6"></div>
+	 <div class="photo"><img src="fotka7.png" alt="Foto 7"></div>
+	<div class="photo"><img src="fotka8.jpg" alt="Foto 8"></div>
+	 <div class="photo"><img src="fotka9.jpg" alt="Foto 9"></div>
+	  <div class="photo"><img src="fotka10.png" alt="Foto 10"></div>
+	   <div class="photo"><img src="fotka11.jpg" alt="Foto 11"></div>
+	    <div class="photo"><img src="fotka12.jpg" alt="Foto 12"></div>
+		 <div class="photo"><img src="fotka13.jpg" alt="Foto 13"></div>
+  </section>
+ <h1> Fotografie vyfotografované mnou : </h1>
+ <h1> Medzi moje záľubi patrí fotografovanie najmä prírody tu vidíte niekoľko mojích fotografií. </h1>
+ <h1> Zameriavam sa najmä na (napr. prírodu / mestské prostredie / detaily.) </h1>
+<h1> Fotografie si sám upravujem a snažím sa pracovať s kompozíciou, svetlom a farbami. </h1>
+  <section class="gallery">
+    <div class="photo"><img src="fotografia.jpg" alt="F 1"></div>
+    <div class="photo"><img src="fotografia2.jpg" alt="Foto 2"></div>
+    <div class="photo"><img src="fotografia3.jpg" alt="Foto 3"></div>
+    <div class="photo"><img src="fotografia4.jpg" alt="Foto 4"></div>
+    <div class="photo"><img src="fotografia5.jpg" alt="Foto 5"></div>
+    <div class="photo"><img src="fotografia6.jpg" alt="Foto 6"></div>
+	 <div class="photo"><img src="fotografia7.jpg" alt="Foto 7"></div>
+	<div class="photo"><img src="fotografia8.jpg" alt="Foto 8"></div>
+	 <div class="photo"><img src="fotografia9.jpg" alt="Foto 9"></div>
+	  <div class="photo"><img src="fotografia10.jpg" alt="Foto 10"></div>
+	   <div class="photo"><img src="fotografia11.jpg" alt="Foto 11"></div>
+	    <div class="photo"><img src="fotografia12.jpg" alt="Foto 12"></div>
+  </section>
+  <div style="padding-top: 50px;">
+
+ <h1> Web stránky - tu vidíte nejaké moje školské práce : </h1>
+ </div>
+ <h1> Pri vytváraní týchto stránok som si osvojil prácu s HTML, CSS a Javascriptom </h1>
+ <h1> Navrhol som dizajn, implementoval interaktívne prvky a zabezpečil responzívnosť. </h1>
+<h1> Zlepšil som svoje znalosti HTML a CSS, naučil som sa vytvárať responzívne rozloženia a používať základné JavaScript interakcie. </h1> 
+<h1> Spojenie HTML, CSS a JavaScriptu do plynulého celku bolo náročné, ale naučil som sa modulárne premýšľať pri kóde. </h1> 
+ <p align="center"> <img src="stranka.png" alt="fotka" style="width:100%" height="50%"> </p>
+ <div style="padding-top: 50px;">
+ <p align="center"> <img src="stranka2.png" alt="fotka" style="width:100%" height="50%"> </p>
+ </div>
+ <div style="padding-top: 50px;">
+ <p align="center"> <img src="stranka3.png" alt="fotka" style="width:100%" height="50%"> </p>
+ </div>
+ <div style="padding-top: 50px;">
+ <p align="center"> <img src="stranka4.png" alt="fotka" style="width:100%" height="50%"> </p>
+ </div>
+ <div style="padding-top: 50px;">
+ <p align="center"> <img src="stranka5.png" alt="fotka" style="width:100%" height="50%"> </p>
+ </div>
+ <div style="padding-top: 50px;">
+ <p align="center"> <img src="stranka6.png" alt="fotka" style="width:100%" height="50%"> </p>
+ </div>
+ <div style="padding-top: 50px;">
+ <p align="center"> <img src="stranka7.png" alt="fotka" style="width:100%" height="50%"> </p>
+ </div>
+<div style="padding-top: 50px;">
+<p> Túto webovú stránku – moje portfólio – som vytváral úplne sám, od návrhu po implementáciu, aby som prezentoval svoje projekty a zručnosti. </p>
+</div> 
+<div style="padding-top: 50px;">
+<h2> <p align="center"> Ďalej sa vo voľnom čase venujem aj : </h2> </p> 
+</div> 
+<div style="padding-top: 50px">
+Programovanie Arduina: Rád pracujem na vlastných elektronických projektoch, kde sa učím logiku programovania a praktické riešenie problémov so senzormi, LEDkami alebo motormi.
+</div>
+
+3D modelovanie v Blenderi: Vytváram 3D objekty a jednoduché animácie, čo mi pomáha rozvíjať kreativitu, priestorové myslenie a technické schopnosti pri digitálnom modelovaní.
+
+<div style="padding-top: 50px">
+<footer>
+  <p>© 2026 Vytvoril: Marek Hanic </p>
+</footer>
+</div>
+
+</body>
+</html>
